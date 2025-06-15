@@ -3,9 +3,9 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.filters import Command
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-CHANNEL_ID = int(os.getenv('CHANNEL_ID'))
-ADMIN_ID = os.getenv('ADMIN_ID')
+BOT_TOKEN = os.getenv('7862060581:AAHG1gN9wjVowHiIs9nLL8dafKYkxINgJ64')
+CHANNEL_ID = int(os.getenv('DisesMeets'))
+ADMIN_ID = os.getenv('alex18v')
 
 bot = Bot(token=BOT_TOKEN, parse_mode='HTML')
 dp = Dispatcher()
